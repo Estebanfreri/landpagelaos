@@ -1,0 +1,221 @@
+.header {
+    background: url(../img/tori-1976609_1280.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+.header_titulo {
+    
+    margin-top: 220px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+   
+}
+
+.header_titulo h1{
+    
+    color: rgb(181, 181, 181);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.header_titulo h1:hover{
+    color: rgb(34, 70, 8);
+}
+
+.header_titulo h2{
+    
+    color: rgb(181, 181, 181);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.header_titulo h2:hover{
+    color: rgb(34, 70, 8);
+}
+
+.container {  display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: space-between;
+    justify-items: stretch;
+    align-items: stretch;
+    
+   
+    margin-top: 210px;
+    grid-template-areas:
+      "info-1 info-2 info-3";
+  }
+  
+  .info-3 { grid-area: info-3;
+display: flex; 
+flex-direction: row;
+
+}
+
+.info-3 h2 { 
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.info-3 h2:hover { 
+    color: rgb(34, 70, 8);
+}
+
+.info-3 a i {
+    color: rgb(67, 66, 66);
+    font-size: 30px;
+    margin-top: 10px;
+}
+  
+  .info-1 { grid-area: info-1;
+    display: flex; 
+    flex-direction: row;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+
+     .info-1 h2 { 
+
+        margin-left: 20px;
+        font-size: 25px;
+    color: rgb(255, 255, 255);
+    }
+
+    .info-1 h2:hover { 
+        color: rgb(34, 70, 8);
+    }
+    .info-1 a i {
+        color:rgb(67, 66, 66);
+        font-size: 30px;
+        margin-top: 10px;
+    }
+  
+  .info-2 { grid-area: info-2;
+    display: flex; 
+    flex-direction: row;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .info-2 h2 { 
+
+        margin-left: 20px;
+        font-size: 25px;
+    color: rgb(255, 255, 255);
+    }
+
+    .info-2 h2:hover { 
+        color: rgb(34, 70, 8);
+    }
+
+    .info-2 a i {
+        color:rgb(67, 66, 66);
+        font-size: 30px;
+        margin-top: 10px;
+    }
+  
+
+    .container_cards{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        
+    }
+
+    
+
+    .info_index{  
+        color: white;
+        padding-top: 40px;
+        height: 100px;
+       text-align: center;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+    }
+.info_index h2{
+    font-size: 40px;
+}
+
+.info_index h2:hover{
+    color: rgb(34, 70, 8);
+}
+
+    .main_class{
+        
+        background: rgb(185,185,185);
+        background: linear-gradient(180deg, rgba(185,185,185,1) 1%, rgba(180,179,176,1) 59%);
+    }
+.imagen_final{
+    background: url(../img/7DFF310E-2064-48BB-A779-657C55E81AAA.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+}
+   
+
+    .info_final h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    opacity: .3;
+    margin-top: 70px;
+    
+    
+    }
+
+    .info_final h2:hover{
+        color:rgb(65, 254, 36) ;
+    }
+
+    .info_final a i {
+        background-color: black;
+        color: rgb(65, 254, 36);
+        
+    }
+
+    .videos{
+        
+        display: flex;
+        justify-content: space-between;
+        margin-left: 730px;
+        align-items:flex-end;
+        
+        width: 670px;
+        height: 600px;
+        
+        
+        
+    }
+
+    
+
+
+
